@@ -1,0 +1,12 @@
+{
+  "name": "openai-codex-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "供 OpenAI Codex 编写和运行代码的基础工作仓库",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  }
+}
